@@ -4,12 +4,13 @@ This repository contains solutions for **Advent of Code 2025**, implemented enti
 
 ## Overview
 
-Each challenge is organized under a separate `ChalX` directory.  
-All solutions are written in standard C (C99) using only the standard library.  
-The focus is on correctness, simplicity, and performance.
+- Each challenge is organized under a separate `ChalX` directory.  
+- All solutions are written in standard C (C99) using only the standard library.  
+- The focus is on correctness, simplicity, and performance.
 
 ## Directory Structure
 
+```
 advent-of-code-2025/
 ├── Chal01/
 │ ├── Makefile
@@ -26,6 +27,7 @@ advent-of-code-2025/
 ├── Chal03/
 │ ├── ...
 └── README.md
+```
 
 Each `ChalX` directory contains:
 - `Makefile`: Build configuration for that day’s challenge  
@@ -51,12 +53,12 @@ gcc -std=c99 -Wall -Wextra -O2
 
 ## Implementation Notes
 
-Each challenge reads from standard input or a local input.txt file.
-No external libraries are used.
-Shared utility headers and source files, if any, are located in each challenge’s include/ and src/ directories.
+- Each challenge reads from standard input or a local input.txt file.
+- No external libraries are used.
+- Shared utility headers and source files, if any, are located in each challenge’s include/ and src/ directories.
 
 ## Requirements
 
-GCC or Clang
-Make
-Standard C library
+- GCC or Clang
+- Make
+- Standard C library
