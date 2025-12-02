@@ -12,19 +12,19 @@ This repository contains solutions for **Advent of Code 2025**, implemented enti
 
 ```
 advent-of-code-2025/
-├── Chal01/
+├── Chal1/
 │ ├── Makefile
 │ ├── bin/
 │ ├── include/
 │ └── src/
-│ └── chal01.c
-├── Chal02/
+│ └── chal1.c
+├── Chal2/
 │ ├── Makefile
 │ ├── bin/
 │ ├── include/
 │ └── src/
-│ └── chal02.c
-├── Chal03/
+│ └── chal2.c
+├── Chal3/
 │ ├── ...
 └── README.md
 ```
